@@ -18,4 +18,25 @@
        	 if arr1[i] != 0:
 	    arr2.append(arr1[i])
        arr1 = arr2
-	
+       
+   4) To print all the subsets of an array:
+  --> def printSubsets(lst,toggles = None, i = 0):
+    if toggles == None:
+        toggles = [0] * len(lst)
+    
+    if i >= len(lst):
+        subset = []
+        for i in range(len(lst)):
+            if toggles[i] == 1:
+                subset.append(lst[i])
+        print(subset)
+    else:
+        toggles[i] = 0
+        printSubsets(lst,toggles,i+1)
+        toggles[i] = 1
+        printSubsets(lst,toggles,i+1)
+
+    printSubsets([1,2,3,4,5]) 
+    
+    
+  5)  
