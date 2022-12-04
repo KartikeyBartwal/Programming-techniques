@@ -5,5 +5,17 @@
 	2)To make sure your index variable i doesn't  start pointing out of array index range and if reaches beyond end, 
      starts the array from the start:
   --> my_moving_index = i % len(array)
-	
+  
+  3) arr1 = [10,20,30,0,40,0,50,60,0,0]. You want to remove all 0 values from the array. Here is an iteratively wrong approach:
+ --->for i in range(len(arr1)):
+    if arr1[i] == 0:
+      arr1.remove(arr[i])
+  This is wrong because everytime you delete a value in that array, you're breaking the synchronicity of for i in range(len(arr1)), as it
+  won't be accurate anymore. Even a single remove like this disrupts the entire logic and absolute accuracy of the for loop.
+  Instead go for this:
+  ---> arr2 = []
+       for i in range(len(arr1)):
+       	 if arr1[i] != 0:
+	    arr2.append(arr1[i])
+       arr1 = arr2
 	
