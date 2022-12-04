@@ -1,4 +1,4 @@
-	1) To find the number of perfect squares within range of (a,b), both inclusive:
+	1) **To find the number of perfect squares within range of (a,b), both inclusive:**
 	--> return floor(sqrt(b)) - ceil(sqrt(a)) + 1 
 	(from sherlock and squares)
 	
