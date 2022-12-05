@@ -39,4 +39,4 @@
     printSubsets([1,2,3,4,5]) 
     
     
-  5)  
+  5)  For any sort of remainder (or left over parts), always use % (modulo) operator. It makes things way easier.
