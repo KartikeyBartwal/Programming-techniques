@@ -40,3 +40,8 @@
     
     
   5)  For any sort of remainder (or left over parts), always use % (modulo) operator. It makes things way easier.
+  6) To have 2 pointers in array always pointing at unique values:
+  ---> for i in range(0,n):
+    	 for j in range(i,n):
+     
+   
