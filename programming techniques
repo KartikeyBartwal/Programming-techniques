@@ -46,4 +46,8 @@
   7) If question involves directions and the number of directions are finite and less enough, you can just make a list which contains a 
   reference for each of the directions. E.g in a chess game, for all directions a queen generally can move:
   directions = [(1,0),(-1,0),(0,1),(0,-1),(1,1),(1,-1),(-1,-1),(-1,1)]
+  
+ 8) If the question seems difficult, focus on solving one case scenerio at a time. Avoid trying to solve all the possible test cases all 
+ at once. Take your time. Solve one kind of case, then when that is solved go for the other. Like this your probability of solving the
+ question skyrockets.
    
