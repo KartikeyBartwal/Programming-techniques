@@ -51,3 +51,6 @@
  at once. Take your time. Solve one kind of case, then when that is solved go for the other. Like this your probability of solving the
  question skyrockets.
    
+ 9) To involve 3 pointers in an arrays (like finding all triplets satisfying a given condition) in O(n^2) time complexity:
+ this involves a hashmap. 
+ first element from the hashmap, second from a for loop and third from linear equations in 3 variables
