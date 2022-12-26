@@ -54,3 +54,13 @@
  9) To involve 3 pointers in an arrays (like finding all triplets satisfying a given condition) in O(n^2) time complexity:
  this involves a hashmap. 
  first element from the hashmap, second from a for loop and third from linear equations in 3 variables
+ 
+ 10) Jump game of leetcode
+ [2,3,1,1,4]. To check if we can reach the ending index we use a reachable_index variable (dynamic programming)
+ reachable_index = 0
+ for index in range(0,len(nums)):
+     if(reachable_index < index):
+        return False
+     reachable_index = max(reachable_index,index + nums[index])
+ return True
+ (This trick works because if at any scenerio reachable_index < index it means that it is impossible to reach that index. Hence, we can never cross that valley)
