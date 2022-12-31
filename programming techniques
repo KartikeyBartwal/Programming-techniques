@@ -64,3 +64,6 @@
      reachable_index = max(reachable_index,index + nums[index])
  return True
  (This trick works because if at any scenerio reachable_index < index it means that it is impossible to reach that index. Hence, we can never cross that valley)
+ 
+ 11) Depth First Search(DFS) is a recursive algorithm. It also includes backtracking (which involves going back to the previous value if it can't move any forward). 
+ Example of Depth First Search is Unique Paths 3
