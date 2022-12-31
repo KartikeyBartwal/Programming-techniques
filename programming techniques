@@ -67,3 +67,4 @@
  
  11) Depth First Search(DFS) is a recursive algorithm. It also includes backtracking (which involves going back to the previous value if it can't move any forward). 
  Example of Depth First Search is Unique Paths 3
+ 12) To understand recursive algorithm, you can use call stack diagram.
