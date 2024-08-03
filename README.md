@@ -1,3 +1,5 @@
+https://images.freeimages.com/variants/V7y92ANsMXRv6LSapAHcfyCX/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d?fmt
+
 ## Project Reflection
 
 It has been a while since I created this repository. The ideas and suggestions mentioned here feel a bit naive and basic at this point. Regardless, I choose to keep this repository as it serves as a testament to my consistent growth.
