@@ -1,0 +1,1 @@
+It has been a while since I made this repo. The ideas and suggesstions mentioned here feels a little naive and basic at this point. Regardless, I choose to keep this repo as it just feels good to witness the consistent growth.
